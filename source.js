@@ -8,7 +8,7 @@ function magic() {
   document.getElementById("dice2").src = `${num2}.jpg `;
 
   if (num1 == num2) {
-    counter = counter++;
+    counter = counter+1;
     document.getElementById("counterNumber").innerHTML = counter;
     document.getElementById("result").innerHTML = "  כל הכבוד יצא לך דאבל :))";
   } else {
